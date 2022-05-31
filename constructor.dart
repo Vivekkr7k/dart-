@@ -6,21 +6,24 @@ import 'dart:io';
     late int price;
 
 ////////////////////////////////////////////////////////////////////////
-    Laptop(String name , String color , int price){
-      this.name= name;
-      this.color= color;
-      this.price= price;
+   // Laptop(String name , String color , int price){
+     // this.name= name;
+      //this.color= color;
+      //this.price= price;
+      /////////////////////////syntactic sugar constructor////////////
+      Laptop(this.color,this.name,this.price);
     }
+
     ///////////////////////////////////////////////////////////////////
-    Laptop.spec(){//named constructor//
-      name = "laptop2";
-      color= "black";
-    }
+   // Laptop.spec(){//named constructor//
+     // name = "laptop2";
+      //color= "black";
+   // }
    //var laptop2 = Laptop.spec();
 
 
 
-  }
+  //}
   void main(List<String>arguments){
     /////passing the values////////////////////////
   Laptop Laptop1 = Laptop("apple", "black", 1123);
@@ -39,9 +42,9 @@ import 'dart:io';
      showcolor();
 
     //printing using the named constructor////
-    var laptop2 = Laptop.spec();
-    print(laptop2.name);
-    print(laptop2.color);
+ //   var laptop2 = Laptop.spec();
+   // print(laptop2.name);
+    //print(laptop2.color);
 
 
   }
