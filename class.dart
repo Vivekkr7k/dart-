@@ -27,7 +27,7 @@ class Phone{
 
 
 void main(){
-  Phone phone1=Phone();
+  Phone phone1= new Phone();
   phone1.name = "apple";
   phone1.colour = "black";
   phone1.model = 123;
@@ -40,8 +40,9 @@ void main(){
   print("----------------------device spec--------------------------");
   phone1.showOutputspec();
 
-
+//adding methods to the class ///
   phone1.turnOn();
+
 
 
 

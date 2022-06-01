@@ -11,7 +11,7 @@ import 'dart:io';
       //this.color= color;
       //this.price= price;
       /////////////////////////syntactic sugar constructor////////////
-      Laptop(this.color,this.name,this.price);
+      Laptop(this.name,this.color,this.price);
     }
 
     ///////////////////////////////////////////////////////////////////
@@ -21,7 +21,7 @@ import 'dart:io';
    // }
    //var laptop2 = Laptop.spec();
 
-
+//==============================================================================
 
   //}
   void main(List<String>arguments){
