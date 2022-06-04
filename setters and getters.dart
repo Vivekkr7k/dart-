@@ -10,24 +10,11 @@ class Phone{
 
 }
 
-
-
-
-
-
-
-
 void main(){
   var Phone1 = Phone("apple","balck");
   print(Phone1.name);
 
   Phone1.setname = "newname";
   print(Phone1.getname);
-
-
-
-
-
-
 
 }
