@@ -59,6 +59,5 @@ void main(){
   b.name();
   b.speak();
   b.sayhello();
-
 }
 
